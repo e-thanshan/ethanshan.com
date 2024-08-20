@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.the-arrow {
+    position: relative;
+    display: inline-block;
+    background: #ccd5ae;
+    opacity: 1;
+    height: 70px;
+    width: 1px;
+    transition: all .3s;
+}
+
+.hero-go-next .the-arrow:after, .hero-go-next .the-arrow:before {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.the-arrow:before {
+    bottom: 0px;
+    left: -1px;
+    -webkit-transform: rotate(40deg);
+    transform: rotate(40deg);
+}
+
+.the-arrow:after {
+    bottom: 0px;
+    left: 1px;
+    -webkit-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+}
+
+.the-arrow:after, .the-arrow:before {
+    opacity: 1;
+    content: "";
+    position: absolute;
+    background: #ccd5ae;
+    height: 10px;
+    width: 1px;
+    right: -1px;
+    margin-right: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: all .3s;
+}
+
+.hero-label {
+    top: 0;
+    transition: all .3s;
+}
+
+.hero-go-next:hover .hero-label {
+    top: -20px;
+}
+
+
+.hero-go-next:hover .the-arrow {
+    opacity: 1;
+    top: 5px !important;
+    height: 40px;
+    width: 2px;
+}
+
+.hero-go-next:hover .the-arrow:before {
+    bottom: 0px;
+    left: 4px;
+    -webkit-transform: rotate(40deg);
+    transform: rotate(40deg);
+}
+
+.hero-go-next:hover .the-arrow:after {
+    bottom: 0px;
+    left: -3px;
+    -webkit-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+}
+
+.hoverStroke {
+    stroke-dashoffset: 450;
+    stroke-dasharray: 450;
+    transition: stroke-dashoffset 0.2s linear;
+}
+
+.linkWrapper:hover .hoverStroke {
+    stroke-dashoffset: 0;
+}
