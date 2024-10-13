@@ -4,13 +4,13 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [
-      react({
-        include: "**/*.tsx/*.jsx",
-      }),
+        react({
+            include: '**/*.tsx/*.jsx',
+        }),
     ],
     server: {
-      watch: {
-          usePolling: true
-      }
-    }
-});
+        watch: {
+            usePolling: true,
+        },
+    },
+})

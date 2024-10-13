@@ -1,0 +1,47 @@
+<div className="featuredWorks flex items-center justify-center gap-2 max-w-[70vw] mx-auto h-full w-full">
+    <div 
+        className={"w-1/5 h-2/3 skew-x-[-20deg] bg-teal-700 transition-all" + (hovered == 1 ? (" w-3/5") : hovered > 0 ? (" w-10") : "" )} 
+        onMouseEnter={() => setHovered(1)} 
+        onMouseLeave={() => setHovered(0)}>
+        
+    </div>
+    <div 
+        className={"w-1/5 h-2/3 skew-x-[-20deg] bg-teal-900 transition-all" + (hovered == 2 ? (" w-3/5") : hovered > 0 ? (" w-10") : "" )} 
+        onMouseEnter={() => setHovered(2)} 
+        onMouseLeave={() => setHovered(0)}>
+        
+    </div>
+    <div 
+        className={"w-1/5 h-2/3 skew-x-[-20deg] bg-teal-950 transition-all" + (hovered == 3 ? (" w-3/5") : hovered > 0 ? (" w-10") : "" )} 
+        onMouseEnter={() => setHovered(3)} 
+        onMouseLeave={() => setHovered(0)}>
+        
+    </div>
+
+    <div className="w-1/5 h-2/3 flex justify-center items-center">
+        <div className="rounded-full h-20 w-20 border-2 border-buff relative cursor-pointer">
+            <FontAwesomeIcon icon={ faArrowRight } className="text-buff h-6 w-6 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+        </div>
+        <svg id="rotatingText" viewBox="0 0 200 200" width="200" height="200" className="absolute cursor-pointer">
+            <defs>
+                <path id="circle" d="M 100, 100
+                        m -75, 0
+                        a 75, 75 0 1, 0 150, 0
+                        a 75, 75 0 1, 0 -150, 0
+                        ">
+                </path>
+            </defs>
+            <text width="400">
+                <textPath alignment-baseline="top" xlinkHref="#circle" className="text fill-buff tracking-widest">
+                    SEE ALL PROJECTS ----------------------------------------------------------
+                </textPath>
+            </text>
+        </svg>
+    </div>
+</div>
+
+
+https://restaurant-amici.com/
+https://www.anro.agency/fr/
+https://spatzek.studio/
+https://robincap.com/
