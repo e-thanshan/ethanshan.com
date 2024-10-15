@@ -40,6 +40,28 @@ export const Menu = () => {
                         >
                             <path
                                 className="hoverStroke"
+                                stroke="#9f86c0"
+                                stroke-miterlimit="10"
+                                stroke-width="40"
+                                fill="none"
+                                d="M 0 19 H 310"
+                            />
+                        </svg>
+                        <a
+                            href="/"
+                            className="text-4xl font-bold text-center z-30 relative"
+                        >
+                            Home
+                        </a>
+                    </div>
+                    <div className="relative inline-block linkWrapper w-30 overflow-hidden pl-2">
+                        <svg
+                            className="absolute top-1/3 -left-1 w-40"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 320 38"
+                        >
+                            <path
+                                className="hoverStroke"
                                 stroke="#E4572E"
                                 stroke-miterlimit="10"
                                 stroke-width="40"
@@ -48,7 +70,7 @@ export const Menu = () => {
                             />
                         </svg>
                         <a
-                            href="#about"
+                            href="/about"
                             className="text-4xl font-bold text-center z-30 relative"
                         >
                             About
@@ -70,7 +92,7 @@ export const Menu = () => {
                             />
                         </svg>
                         <a
-                            href="#projects"
+                            href="/projects"
                             className="text-4xl font-bold text-center z-30 relative"
                         >
                             Projects
@@ -92,7 +114,7 @@ export const Menu = () => {
                             />
                         </svg>
                         <a
-                            href="#contact"
+                            href="/contact"
                             className="text-4xl font-bold text-center z-30 relative"
                         >
                             Contact

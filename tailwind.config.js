@@ -10,6 +10,7 @@ export default {
                     '"Cormorant Garamond"',
                     ...defaultTheme.fontFamily.serif,
                 ],
+                pearl: ['Pearl', ...defaultTheme.fontFamily.serif],
             },
             spacing: {
                 15: '3.75rem',

@@ -80,7 +80,7 @@ export const Featured = forwardRef(
                 >
                     <div
                         aria-label="Featured text"
-                        className="flex justify-center text-5xl font-bold featuredText"
+                        className="flex justify-center text-5xl font-bold font-pearl featuredText"
                     >
                         <div>F</div>
                         <div>e</div>
@@ -104,42 +104,33 @@ export const Featured = forwardRef(
                             </div>
                         </div>
                         <div className="panel py-10 w-full absolute flex h-full opacity-0">
-                            <div className="w-fit mx-auto relative ">
-                                <div className="panelText absolute top-0 -right-10 text-7xl font-bold text-gray-400 font-serif">
+                            <div className="relative h-full w-full">
+                                <div className="panelText absolute top-10 left-1/2 -translate-x-1/2 text-7xl font-bold text-gray-400 font-serif">
                                     Dolor sit amet
                                 </div>
-                                <div className="panelImage rounded-md z-30 overflow-hidden w-1/3">
-                                    <img
-                                        src="https://www.pocruises.com/content/dam/po/inventory-assets/ports/AEY/AEY.jpg.1578044651498.image.750.563.low.jpg"
-                                        alt=""
-                                    />
-                                </div>
+                                <img className='absolute top-1/5 left-10 w-1/6 featuredImg' src="https://images.unsplash.com/photo-1728634007128-b02aeee08252?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                                <img className='absolute top-1/6 left-1/2 -translate-x-1/2 w-1/2 featuredImg' src="https://images.unsplash.com/photo-1728104665223-28915cd89aa3?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                                <img className='absolute bottom-1/2 right-10 w-1/5 featuredImg' src="https://images.unsplash.com/photo-1728144691773-544f5c5577f6?q=80&w=2236&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                             </div>
                         </div>
                         <div className="panel py-10 w-full absolute flex h-full opacity-0">
-                            <div className="w-fit mx-auto relative ">
-                                <div className="panelText absolute top-0 -right-10 text-7xl font-bold text-gray-400 font-serif">
+                            <div className="relative h-full w-full">
+                                <div className="panelText absolute top-10 left-1/2 -translate-x-1/2 text-7xl font-bold text-gray-400 font-serif">
                                     Consectetur adipiscing elit
                                 </div>
-                                <div className="panelImage rounded-md z-30 overflow-hidden w-1/3">
-                                    <img
-                                        src="https://images.unsplash.com/photo-1512418891955-d1f267a23a50?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                        alt=""
-                                    />
-                                </div>
+                                <img className='absolute top-1/3 left-8 w-1/6 featuredImg' src="https://images.unsplash.com/photo-1728634007128-b02aeee08252?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                                <img className='absolute top-1/6 left-1/2 -translate-x-1/2 w-1/2 featuredImg' src="https://images.unsplash.com/photo-1728104665223-28915cd89aa3?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                                <img className='absolute top-1/5 right-8 w-1/5 featuredImg' src="https://images.unsplash.com/photo-1728144691773-544f5c5577f6?q=80&w=2236&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                             </div>
                         </div>
                         <div className="panel py-10 w-full absolute flex h-full opacity-0">
-                            <div className="w-fit mx-auto relative ">
-                                <div className="panelText absolute top-0 -right-10 text-7xl font-bold text-gray-400 font-serif">
+                            <div className="relative h-full w-full">
+                                <div className="panelText absolute top-10 left-1/2 -translate-x-1/2 text-7xl font-bold text-gray-400 font-serif">
                                     Sed do eiusmod
                                 </div>
-                                <div className="panelImage rounded-md z-30 overflow-hidden w-1/3">
-                                    <img
-                                        src="https://www.pocruises.com/content/dam/po/inventory-assets/ports/AEY/AEY.jpg.1578044651498.image.750.563.low.jpg"
-                                        alt=""
-                                    />
-                                </div>
+                                <img className='absolute top-0 left-5 w-1/6 featuredImg' src="https://images.unsplash.com/photo-1728634007128-b02aeee08252?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                                <img className='absolute top-1/6 left-1/2 -translate-x-1/2 w-1/2 featuredImg' src="https://images.unsplash.com/photo-1728104665223-28915cd89aa3?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                                <img className='absolute bottom-1/4 right-5 w-1/5 featuredImg' src="https://images.unsplash.com/photo-1728144691773-544f5c5577f6?q=80&w=2236&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                             </div>
                         </div>
                     </div>

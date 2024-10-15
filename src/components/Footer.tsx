@@ -4,7 +4,7 @@ export const Footer = () => {
             <div className="bg-papaya_whip-600 max-w-5xl mx-auto p-6 pb-0 font-sans shadow-lg rounded-t-md">
                 <div className="border-4 border-b-0 border-tea_green-300 h-full p-2 pb-0">
                     <div className="border-2 border-b-0 border-tea_green-300 h-full p-6">
-                        <div className="flex pb-10 justify-between items-center">
+                        <div className="flex pb-16 justify-between items-center">
                             <div>
                                 <h1 className="text-3xl font-bold pb-10">
                                     Ethan Shan
