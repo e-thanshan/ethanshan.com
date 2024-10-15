@@ -41,8 +41,8 @@ export const Menu = () => {
                             <path
                                 className="hoverStroke"
                                 stroke="#9f86c0"
-                                stroke-miterlimit="10"
-                                stroke-width="40"
+                                strokeMiterlimit="10"
+                                strokeWidth="40"
                                 fill="none"
                                 d="M 0 19 H 310"
                             />
@@ -63,8 +63,8 @@ export const Menu = () => {
                             <path
                                 className="hoverStroke"
                                 stroke="#E4572E"
-                                stroke-miterlimit="10"
-                                stroke-width="40"
+                                strokeMiterlimit="10"
+                                strokeWidth="40"
                                 fill="none"
                                 d="M 0 19 H 310"
                             />
@@ -85,8 +85,8 @@ export const Menu = () => {
                             <path
                                 className="hoverStroke"
                                 stroke="#17BEBB"
-                                stroke-miterlimit="10"
-                                stroke-width="40"
+                                strokeMiterlimit="10"
+                                strokeWidth="40"
                                 fill="none"
                                 d="M 0 19 H 310"
                             />
@@ -107,8 +107,8 @@ export const Menu = () => {
                             <path
                                 className="hoverStroke"
                                 stroke="#FFC914"
-                                stroke-miterlimit="10"
-                                stroke-width="40"
+                                strokeMiterlimit="10"
+                                strokeWidth="40"
                                 fill="none"
                                 d="M 0 19 H 310"
                             />

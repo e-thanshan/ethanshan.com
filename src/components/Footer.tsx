@@ -1,6 +1,6 @@
 export const Footer = () => {
     return (
-        <div className="bg-[url('dark_monstera.jpg')] bg-cover pt-28">
+        <div className="bg-[url('src/assets/dark_monstera.jpg')] bg-cover pt-28">
             <div className="bg-papaya_whip-600 max-w-5xl mx-auto p-6 pb-0 font-sans shadow-lg rounded-t-md">
                 <div className="border-4 border-b-0 border-tea_green-300 h-full p-2 pb-0">
                     <div className="border-2 border-b-0 border-tea_green-300 h-full p-6">
