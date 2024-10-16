@@ -37,7 +37,7 @@ export const Splash: React.FC<SplashProps> = ({ navToFeatured }) => {
                 </div>
             </div>
             <div className="absolute left-1/2 top-1/2 -translate-y-1/2">
-                <img src="src/assets/Orange Blossom.png" alt="" className="h-[66vh]" />
+                <img src="/Orange Blossom.png" alt="" className="h-[66vh]" />
             </div>
             <div className="absolute bottom-0 left-1/2 -translate-x-1/2">
                 <div
