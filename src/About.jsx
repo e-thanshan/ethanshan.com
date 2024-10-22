@@ -6,6 +6,7 @@ const backend = ['Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'GraphQL', 'Pris
 const languages = ['Python', 'Java', 'C', 'C#', 'Assembly', 'SQL', 'R', 'Verilog']
 const coursework = ['Object Oriented Programming', 'Data Structures and Algorithms', 'Computer Architecture', 'Operating Systems', 'Database Systems', 'Software Design', 'Software Engineering Requirements', 'Probability and Statistics', 'Combinatorics', 'Differential Equations']
 const miscellaneous = ['Git', 'Figma', 'DatoCMS', 'DigitalOcean', 'Wordpress', 'Agile Methodology']
+const hobbies = ['Guitar', 'Ultimate Frisbee', 'Clothing', 'Fragrance', 'Fitness', 'Photography', 'Custom Keyboards']
 
 const About = () => {
     return (
@@ -31,38 +32,43 @@ const About = () => {
 
                 <div className="my-10">
                     <h3 className="font-pearl text-4xl">Skills and Coursework</h3>
-                    <div className="grid grid-cols-5 pt-4 gap-4">
+                    <div className="grid grid-cols-5 pt-4 gap-8">
                         <div>
                             <h4 className="font-bold text-2xl">Frontend</h4>
-                            <ul>
-                                {frontend.map(skill => <li key={skill}>{skill}</li>)}
+                            <ul className="list-disc">
+                                {frontend.map(skill => <li key={skill} className="marker:text-xs">{skill}</li>)}
                             </ul>
                         </div>
                         <div>
                             <h4 className="font-bold text-2xl">Backend</h4>
-                            <ul>
-                                {backend.map(skill => <li key={skill}>{skill}</li>)}
+                            <ul className="list-disc">
+                                {backend.map(skill => <li key={skill} className="marker:text-xs">{skill}</li>)}
                             </ul>
                         </div>
                         <div>
                             <h4 className="font-bold text-2xl">Languages</h4>
-                            <ul>
-                                {languages.map(skill => <li key={skill}>{skill}</li>)}
+                            <ul className="list-disc">
+                                {languages.map(skill => <li key={skill} className="marker:text-xs">{skill}</li>)}
                             </ul>
                         </div>
                         <div>
                             <h4 className="font-bold text-2xl">Coursework</h4>
-                            <ul>
-                                {coursework.map(skill => <li key={skill}>{skill}</li>)}
+                            <ul className="list-disc">
+                                {coursework.map(skill => <li key={skill} className="marker:text-xs">{skill}</li>)}
                             </ul>
                         </div>
                         <div>
                             <h4 className="font-bold text-2xl">Miscellaneous</h4>
-                            <ul>
-                                {miscellaneous.map(skill => <li key={skill}>{skill}</li>)}
+                            <ul className="list-disc">
+                                {miscellaneous.map(skill => <li key={skill} className="marker:text-xs">{skill}</li>)}
                             </ul>
                         </div>
                     </div>
+                </div>
+
+                <div className="my-10">
+                    <h1 className="font-pearl text-4xl">Other Hobbies</h1>
+
                 </div>
             </div>
 
