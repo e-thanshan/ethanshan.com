@@ -1,4 +1,4 @@
-import { Menu } from "./components/Menu";
+import { Menu } from './components/Menu'
 
 const Projects = () => {
     return (
@@ -7,7 +7,7 @@ const Projects = () => {
             <div className="grain"></div>
             <h1>Projects</h1>
         </div>
-    );
+    )
 }
 
-export default Projects;
+export default Projects

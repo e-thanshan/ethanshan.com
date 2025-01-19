@@ -1,8 +1,11 @@
-import bg from '/dark_monstera.jpg?url';
+import bg from '/dark_monstera.jpg?url'
 
 export const Footer = () => {
     return (
-        <div className="bg-cover pt-28" style={{ backgroundImage: `url("${bg}")` }}>
+        <div
+            className="bg-cover pt-28"
+            style={{ backgroundImage: `url("${bg}")` }}
+        >
             <div className="bg-papaya_whip-600 max-w-5xl mx-auto p-6 pb-0 font-sans shadow-lg rounded-t-md">
                 <div className="border-4 border-b-0 border-tea_green-300 h-full p-2 pb-0">
                     <div className="border-2 border-b-0 border-tea_green-300 h-full p-6">
@@ -14,7 +17,10 @@ export const Footer = () => {
                                 <p className="tracking-wider">
                                     +1 (347) 696-5114
                                 </p>
-                                <a className="tracking-wider hover-underline-animation left" href="mailto:ethanshan706@gmail.com">
+                                <a
+                                    className="tracking-wider hover-underline-animation left"
+                                    href="mailto:ethanshan706@gmail.com"
+                                >
                                     ethanshan706@gmail.com
                                 </a>
                             </div>

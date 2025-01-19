@@ -13,12 +13,12 @@ const router = createBrowserRouter([
         path: '/',
         errorElement: <Error404 />,
         children: [
-          { path: '', element: <App /> },
-          { path: 'about', element: <About /> },
-          { path: 'projects', element: <Projects /> },
-          { path: 'contact', element: <Contact /> },
+            { path: '', element: <App /> },
+            { path: 'about', element: <About /> },
+            { path: 'projects', element: <Projects /> },
+            { path: 'contact', element: <Contact /> },
         ],
-    }
+    },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
