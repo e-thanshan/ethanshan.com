@@ -1,3 +1,5 @@
+v1 of my personal website, contains interesting gsap animations and fonts for future reference.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
